@@ -11,7 +11,7 @@ MAX_ATTEMPTS = 3
 with open("data/riddles.json") as riddle_file:
     RIDDLES = json.load(riddle_file)
 
-high_score = {
+high_score = { 
     "name": "nobody",
     "score": 0
 }
